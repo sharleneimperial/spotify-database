@@ -107,3 +107,6 @@ app.get('/:artist/:album/songs', async (req, res) => { // /drake/songs
     console.log(songs);
     
 });
+
+
+app.listen(PORT);
