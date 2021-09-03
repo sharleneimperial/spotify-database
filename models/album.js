@@ -20,7 +20,6 @@ module.exports = (sequelize, DataTypes) => {
     label: DataTypes.STRING,
     genre: DataTypes.STRING,
     releaseYear: DataTypes.STRING,
-    albumId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Album',

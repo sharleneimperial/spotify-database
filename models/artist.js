@@ -27,3 +27,9 @@ module.exports = (sequelize, DataTypes) => {
   });
   return Artist;
 };
+
+/*
+```
+sequelize model:create --name Artist --attributes firstName:string,lastName:string,bio:string,city:string,state:string 
+```
+*/ 
